@@ -1,6 +1,4 @@
 // enum data type
-
-
 type UserRoles ="Admin"| "Editor" |"Viewer"
 
 const canEdit =(role:UserRoles)=>{
@@ -11,7 +9,5 @@ const canEdit =(role:UserRoles)=>{
         return false
     }
 }
-
 const isEditPermissable = canEdit("Admin")
-
 console.log(isEditPermissable)
