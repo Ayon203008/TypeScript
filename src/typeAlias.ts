@@ -19,10 +19,10 @@ const user1:user={
         firstName:"Abid ",
         lastName:"hasan "
     },
-    gender:"male";
-    contactNumber:"Melano park , silicon valley";
+    gender:"male",
+    contactNumber:"Melano park , silicon valley",
     address:{
-        division:"NY";
+        division:"NY",
         city:"La"
     }
 }
